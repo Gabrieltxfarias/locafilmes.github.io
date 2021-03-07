@@ -1,22 +1,21 @@
 header#cabecalho {
-    border-bottom: 1px;
-    border-bottom-color: black;
+    border-bottom: 2px;
+    border-bottom-color: white;
     border-bottom-style: solid;
-    height: 150px;
-    background: url('https://i.imgur.com/iIxUqnr.jpg') no-repeat;
+    height: 200px;
+    background: url('https://i.imgur.com/CKHxg9m.jpg') no-repeat;
     background-size: 100%;
-    background-attachment: fixed;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:transparent;
+	margin-bottom: 20px;
 }
 
 #menu ul {
-    padding:0px;
-    margin:2px;
+    padding:50px;
+    margin:10px;
+    list-style: none;
     margin-right:5px;
-    list-style:none;
     border-radius: 15px;
-    background: url('https://img.elo7.com.br/product/original/17A74BA/papel-de-parede-adesivo-chevorn-preto-adesivo-de-parede.jpg'); 
 
 }
 
@@ -30,31 +29,32 @@ header#cabecalho {
     display: inline-block;
 
     /* visual do link */
-    color: grey;
+    color: white;
     color-interpolation-filters: unset;
     text-decoration: none;
     border-bottom:3px solid #EDEDED;
 }
 
 #menu ul li a:hover {
-    color:white;
-    background: #6D6D6D;
+    color:black;
+    background: white;
     background-blend-mode: luminosity;
     border-bottom:3px solid black;
 }
 
 body{
-    background: url('http://optimizepressnapratica.com.br/wp-content/uploads/2014/08/background-preto-fundo.jpg');
+    background: url('https://i.imgur.com/cAMXipL.jpg');
     background-size: 100%;
     background-position: 100%;
     background-attachment: scroll;
     
 }
 
-#filmes img:hover{
+.filmes img:hover{
     background-color: #D6D6D6;
     color: #6D6D6D;
     border-bottom: 3px solid white;
+	
 }
 
 #usuario{
